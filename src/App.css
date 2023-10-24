@@ -1,0 +1,63 @@
+/* Общие стили */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0; 
+  font-family: Poppins;
+}
+
+.App {
+  border: 2px solid #333; 
+  padding: 20px;
+  text-align: center;
+  background-color: #fff; 
+  border-radius: 10px;  
+}
+
+#timer-titles {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  font-family: Roboto;
+}
+
+button {
+  font-size: 1.2em;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 10px;
+  min-width: 30px;
+  min-height: 30px;
+}
+
+#work-minus, #break-minus, #stop {
+  background-color: red; 
+  color: #fff;
+}
+#work-plus, #break-plus, #start {
+  background-color: green; 
+  color: #fff;
+}
+
+
+#timer, #title, #current-title {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+#start-button,#reset-button {
+  margin-top: 10px;
+}
+
+#session-label, #break-label {
+  font-weight: bold; 
+}
+
+#timer-titles div {
+  flex: 1; 
+}
